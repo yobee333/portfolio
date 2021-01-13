@@ -34,7 +34,7 @@
         <section class="portfolio">
             <h3>The Hive</h3>
             <h2>Portfolio</h2>
-            <p>Check out some of these past websites and projects! <a href="mailto: thedeveloperbee@gmail.com? subject: I'm interested in a website">Contact The Developer Bee </a>to discuss your website!</p>
+            <p>Check out some of these past websites and projects! <a href="mailto: thedeveloperbee@gmail.com? subject: I'm interested in a website">Contact The Developer Bee </a>to discuss your unique website!</p>
             
             <section class="grid">
                 <ul id="hexGrid">
@@ -61,17 +61,6 @@
                        </a>
                     </div>
                   </li>
-                  
-                  <li class="hex">
-                    <div class="hexIn">
-                      <a class="hexLink" href="#">
-                        <div class='img' style='background-image: url("https://images.unsplash.com/photo-1566943701908-0885a5b755e6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80");'></div>
-                        <h2 id="demo1">Temperature Converter</h2>
-                        <p id="demo2">Fun calculator to convert temperature from Farenheit to Celcius</p>
-                      </a>
-                    </div>
-                  </li>
-                  
                   <li class="hex">
                     <div class="hexIn">
                       <a class="hexLink" href="#">
@@ -80,7 +69,19 @@
                         <p id="demo2">Private yacht charter with links to booking site.</p>
                       </a>
                     </div>
+                  </li>                  
+
+                  <li class="hex">
+                    <div class="hexIn">
+                      <a class="hexLink" href="https://confident-keller-af707b.netlify.app/">
+                        <div class='img' style='background-image: url("https://images.unsplash.com/photo-1566943701908-0885a5b755e6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80");'></div>
+                        <h2 id="demo1">Horror Scope</h2>
+                        <p id="demo2">Fun horror film horoscopes</p>
+                      </a>
+                    </div>
                   </li>
+                  
+
                   <li class="hex">
                     <div class="hexIn">
                       <a class="hexLink" href="#">
@@ -96,20 +97,25 @@
             </section>
             <section class="contact">
                 <h3>Contact us today!</h3>
+                <p>Did you know bees dance to communicate? Luckily, you don't need interpretive dance skills--just fill out the form below!</p>
                 <form name="contact" method="POST" data-netlify="true">
                   <div id="container">
  
+<<<<<<< HEAD
+                    <form id="contact_form">
+=======
                    <!-- <form method="post" id="contact_form">-->
+>>>>>>> 68c2d20bb8692174ffe5eee3050e7e37b5356ff4
                       <div class="name">
                         <label for="name"></label>
-                        <input type="text" placeholder="Name" name="name" id="name_input" required>
+                        <input type="text" placeholder="Name" name="Name" id="name_input" required>
                       </div>
                       <div class="email">
                         <label for="email"></label>
                         <input type="email" placeholder="Email" name="email" id="email_input" required>
                       </div>
                       <div class="telephone">
-                        <label for="name"></label>
+                        <label for="number"></label>
                         <input type="text" placeholder="Number" name="telephone" id="telephone_input" required>
                       </div>
                       <div class="subject">
@@ -126,13 +132,15 @@
                         <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
                       </div>
                       <div class="submit">
-                        <input type="submit" value="Send Message" id="form_button" />
+                        <input name="submit" type="submit" value="Send Message" id="form_button" />
                       </div>
                     </form><!-- // End form -->
                   </div><!-- // End #container -->
                 
             </section>
         </section>
+        <footer>&#169; 2021 The Developer Bee          
+        </footer>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
