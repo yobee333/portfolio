@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -38,14 +39,24 @@
             
             <section class="grid">
                 <ul id="hexGrid">
-               
+                  <li class="hex">
+                    <div class="hexIn">
+                      <a class="hexLink" href="https://almostfreetrucks.netlify.app/">
+                            <div class='img' style='background-image: url("https://images.unsplash.com/photo-1576347819574-903b60efcd69?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1191&q=80");'></div>
+                        <h2 id="demo1">Almost Free Trucks</h2>
+                        <p id="demo2">Wholesale truck sales on eBay.</p>
+                      </a>
+                    </div>
+                  </li>
+                  
+
                   <li class="hex">
                     <div class="hexIn">
                       <a class="hexLink" href="https://capehartcollision.netlify.app/" target="_blank">
                         <div class='img' style='background-image: url("https://images.unsplash.com/photo-1543171375-609a6c198b2a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1126&q=80");'></div>
                         <h2 id="demo1" >Capehart Collision</h2>
                         <p id="demo2">Auto body shop</p>
-                       </a>
+                      </a>
                     </div>
                   </li>
                   <li class="hex">
@@ -68,15 +79,7 @@
                     </div>
                   </li>
                   
-                  <li class="hex">
-                    <div class="hexIn">
-                      <a class="hexLink" href="#">
-                            <div class='img' style='background-image: url("https://images.unsplash.com/photo-1576347819574-903b60efcd69?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1191&q=80");'></div>
-                        <h2 id="demo1">Almost Free Trucks</h2>
-                        <p id="demo2">Concept for wholesale truck sales on eBay.</p>
-                      </a>
-                    </div>
-                  </li>
+
 
                   <li class="hex">
                     <div class="hexIn">
@@ -96,21 +99,18 @@
                 <p>Did you know bees dance to communicate? Luckily, you don't need interpretive dance skills--just fill out the form below!</p>
                 <form name="contact" method="POST" data-netlify="true">
                   <div id="container">
- 
 
-                    <form id="contact_form">
-                   <!-- <form method="post" id="contact_form">-->
-
+                  <!-- <form method="post" id="contact_form">-->
                       <div class="name">
                         <label for="name"></label>
-                        <input type="text" placeholder="Name" name="Name" id="name_input" required>
+                        <input type="text" placeholder="Name" name="name" id="name_input" required>
                       </div>
                       <div class="email">
                         <label for="email"></label>
                         <input type="email" placeholder="Email" name="email" id="email_input" required>
                       </div>
                       <div class="telephone">
-                        <label for="number"></label>
+                        <label for="name"></label>
                         <input type="text" placeholder="Number" name="telephone" id="telephone_input" required>
                       </div>
                       <div class="subject">
@@ -127,7 +127,7 @@
                         <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
                       </div>
                       <div class="submit">
-                        <input name="submit" type="submit" value="Send Message" id="form_button" />
+                        <input type="submit" value="Send Message" id="form_button" />
                       </div>
                     </form><!-- // End form -->
                   </div><!-- // End #container -->
