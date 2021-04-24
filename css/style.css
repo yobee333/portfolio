@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Box Model Hack */
 
 
@@ -64,15 +64,12 @@ h1 {
   padding: 5% 5% 0 5%;
 }
 
-.about {
-  background-image: url("https://images.unsplash.com/photo-1519692974341-e078db948517?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
-  width: 90vw;
-  margin: auto;
-  }
+.container{
+  height: 500px;
+  border: 2px solid green;
+}
 
+/*
   @media (max-width: 400px){
     .about{
       font-size: .8rem;
@@ -90,7 +87,9 @@ h1 {
     .about{
       height: 300px;
   }
-  }
+  }*/
+
+  
 .portfolio p {
   margin-bottom: 5%;
 }
