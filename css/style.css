@@ -45,6 +45,11 @@ h2 {
   font-size: 1rem;
   padding: 0;
 }
+
+p{
+  font-size: 1.1rem;
+  font-weight: 400;
+}
 header {
   display: flex;
   flex-direction: column;
@@ -66,7 +71,11 @@ h1 {
 
 .container{
   height: 500px;
-  border: 2px solid green;
+  padding: 5%;
+  background-image: url("https://images.unsplash.com/photo-1617155856580-731711517e77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .social{
@@ -75,7 +84,9 @@ h1 {
   justify-content: center;
 }
 i{
-  padding: 10px;
+  padding: 10px 20px;
+  color: black;
+  
 
 }
 /*
