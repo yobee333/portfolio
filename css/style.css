@@ -89,25 +89,21 @@ i{
   
 
 }
-/*
-  @media (max-width: 400px){
-    .about{
+
+  @media (max-width: 450px){
+    .container{
       font-size: .8rem;
-      height: 400px;
+      height: 800px;
     }
   }
 
-  @media(max-width: 414px){
-    .about{
-      height: 350px;
-      font-size: .8rem;
-    }
   }
-  @media (max-width: 800px) and (min-width: 401px){
+  @media (max-width: 760px) and (min-width: 451px){
     .about{
-      height: 300px;
+      font-size: .9rem;
+      height: 700px;
   }
-  }*/
+  }
 
   
 .portfolio p {
