@@ -69,10 +69,13 @@ h1 {
   border: 2px solid green;
 }
 
-i{
+.social{
   display: flex;
-
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+i{
+  padding: 10px;
 
 }
 /*
