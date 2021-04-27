@@ -69,6 +69,12 @@ h1 {
   border: 2px solid green;
 }
 
+i{
+  display: flex;
+
+  align-items: center;
+
+}
 /*
   @media (max-width: 400px){
     .about{
